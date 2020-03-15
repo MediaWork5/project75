@@ -1,0 +1,1340 @@
+/*********** starting the constant *************/ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+@font-face {
+    font-family: Kufyan-Arabic-Regular;
+    src: url(../fonts/Kufyan-Arabic-Regular.ttf);
+}
+body
+{
+    font-family: 'Kufyan-Arabic-Regular';
+    font-weight: normal;
+    font-style: normal;
+}
+.englishfont
+{
+    font-family: 'Kufyan-Arabic-Regular';
+    font-weight: normal;
+    font-style: normal;
+}
+a
+{
+    text-decoration: none !important;
+}
+input:focus,
+textarea:focus
+{
+    outline: none;
+}
+/*********** End the constant *************/
+/***********  *************/
+/***********  *************/
+/*********** starting header *************/
+header
+{
+    background: url('../images/back-header.png');
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -0-background-size:contain;
+    background-size:contain;
+    background-repeat: round;
+    height: 550px;
+    width: 100% !important;
+    margin-bottom: 150px;
+    position: relative;
+}
+header .overlay
+{
+    background: rgba(0,0,0,.5);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+header nav
+{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+header nav .container
+{
+    padding: 20px 0px;
+}
+header nav .container > .row > div
+{
+    
+}
+header nav .container > .row > div:nth-child(1)
+{
+    
+}
+header nav .container > .row > div:nth-child(1) img
+{
+    
+}
+header nav .container > .row > div:nth-child(2)
+{
+    
+}
+header nav .container > .row > div:nth-child(2) > a
+{
+    color: #fff;
+    padding: 5px 12px 9px 12px;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: all .35s ease-in-out;
+}
+header nav .container > .row > div:nth-child(2) a:hover
+{
+    background-color: #178512;
+}
+header nav .container > .row > div:nth-child(3)
+{
+    
+}
+header nav .container > .row > div:nth-child(3) a
+{
+    
+}
+header nav .container > .row > div:nth-child(3) a i
+{
+    color: #178512;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin: 5px 5px 0px 5px;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+header nav .container > .row > div:nth-child(3) a i:hover
+{
+    background-color: #178512;
+    color: #fff;
+}
+header nav .container > .row > div:nth-child(3) a:last-child
+{
+    margin-left: 30px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: -webkit-inline-box;
+    color: #178512;
+    text-align: -webkit-center;
+    border-radius: 5px;
+    transition: all .35s ease-in-out;
+}
+header nav .container > .row > div:nth-child(3) a:last-child:hover
+{
+    background-color: #178512;
+    color: #fff;
+}
+header .intro-slider
+{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+header .intro-slider .container
+{
+    
+}
+header .intro-slider .carousel-inner h1
+{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    width: 375px;
+}
+header .carousel-control-prev-icon,
+header .carousel-control-next-icon
+{
+    background-image: none !important;
+}
+header .carousel-control-prev i, header .carousel-control-next i
+{
+    position: absolute;
+    color: #178512;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    transition: all .35s ease-in-out;
+    bottom: -75px;
+}
+header .carousel-control-prev i
+{
+    left: 465px;
+}
+header .carousel-control-next i
+{
+    right: 465px;
+}
+header .carousel-control-next, header .carousel-control-prev
+{
+    opacity: 1 !important;
+    transition: all .35s ease-in-out;
+}
+header .carousel-control-next:hover i, header .carousel-control-prev:hover i
+{
+    background-color: #178512;;
+    color: #fff;
+}
+header .newsletter
+{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    box-shadow: 3px 3px 5px #333333;    
+}
+header .newsletter .container
+{
+    padding: 25px;
+    width: 100%;
+}
+header .newsletter .container > .row > div
+{
+    
+}
+header .newsletter h3
+{
+    font-size: 35px;
+}
+header .newsletter h3 span
+{
+    color: #178512;
+    font-weight: bold;
+}
+header .newsletter h6
+{
+    font-size: 14.6px;
+}
+header .newsletter input[type=email]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 65%;
+    margin-top: 20px;
+    padding: 10px;
+}
+header .newsletter input::placeholder
+{
+    font-size: 14px;
+    color: #ddd;
+}
+header .newsletter input[type=submit]
+{
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #fff; 
+    display: -webkit-inline-box;
+    padding-bottom: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+header .newsletter i
+{
+    left: 350px;
+    top: 40px;
+    cursor: pointer;
+}
+@media (max-width: 576px)
+{
+    header
+    {
+        background: url('../images/back-header.png');
+        -webkit-background-size:cover !important;
+        -moz-background-size:cover !important;
+        -0-background-size:cover !important;
+        background-size:cover !important;
+        height: 550px;
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+    header nav .container > .row > div:nth-child(1) i
+    {
+        display: block !important;
+        cursor: pointer;
+        top: 8px;
+        right: 20px;
+        color: #fff;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(1)
+    {
+        margin-bottom: 50px;
+        display: block !important;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(1) img
+    {
+        margin-top: 20px;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(1) i
+    {
+        left: 8px;
+        top: 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(2)
+    {
+        display: block !important;
+        margin-top: 100px;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(2) i
+    {
+        color: #178512;
+        background-color: #fff;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 50%;
+        margin: 5px 5px 0px 5px;
+        cursor: pointer;
+        transition: all .35s ease-in-out;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(2) i:hover
+    {
+        background-color: #178512;;
+        color: #fff;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(2) a:last-child
+    {
+        margin-left: 30px;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        display: -webkit-inline-box;
+        color: #178512;
+        text-align: -webkit-center;
+        border-radius: 5px;
+        transition: all .35s ease-in-out;
+    }
+    header nav .container > .row > div:nth-child(2) > div:nth-of-type(2) a:last-child:hover
+    {
+        background-color: #178512;
+        color: #fff;
+    }
+    header nav .container > .row > div:nth-child(2)
+    {
+        background: url('../images/back-header.png');
+        -webkit-background-size:cover !important;
+        -moz-background-size:cover !important;
+        -0-background-size:cover !important;
+        background-size:cover !important;
+        max-width: 100% !important;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 9999;
+        left: 415px;
+        transition: all 1s ease-in-out;
+    }
+    header nav .container > .row > div:nth-child(3)
+    {
+        display: none;
+    }
+    header nav .container > .row > div:nth-child(2) > a
+    {
+        display: block;
+        font-size: 22px;
+    }
+    header .intro-slider .carousel-inner h1
+    {
+        font-size: 34px;
+        width: 300px;
+    }
+    header .carousel-control-prev i,
+    header .carousel-control-next i
+    {
+        display: none;
+    }
+    header .intro-slider
+    {
+        margin-bottom: 40px;
+    }
+    header .newsletter
+    {
+        width: 85%;
+    }
+    header .newsletter h3
+    {
+        font-size: 23px;
+    }
+    header .newsletter input[type=submit]
+    {
+        width: 90px;
+    }
+    header .newsletter i
+    {
+        left: 230px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    header
+    {
+        background: url('../images/back-header.png');
+        -webkit-background-size:cover !important;
+        -moz-background-size:cover !important;
+        -0-background-size:cover !important;
+        background-size:cover !important;
+        height: 570px;
+        max-width: 100% !important;
+    }
+    header nav .container > .row > div
+    {
+        margin-bottom: 15px;
+    }
+    header .intro-slider
+    {
+        margin-top: 0px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    header nav .container > .row > div:nth-child(2) > a
+    {
+        padding: 5px 5px 9px 5px;
+        font-size: 16px;
+    }
+    header nav .container > .row > div:nth-child(3) a i
+    {
+        margin: 5px 0px 0px 0px;
+    }
+    header .newsletter
+    {
+        width: 90%;
+    }
+    header .newsletter h3
+    {
+        font-size: 28px;
+    }
+    header .newsletter i
+    {
+        left: 290px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    header nav .container > .row > div:nth-child(2) > a
+    {
+        padding: 5px 5px 9px 5px;
+        font-size: 16px;
+    }
+    header .carousel-control-prev i
+    {
+        left: 350px;
+    }
+    header .carousel-control-next i
+    {
+        right: 350px;
+    }
+    header .newsletter
+    {
+        width: 90%;
+    }
+}
+/*********** End header *************/
+/***********  *************/
+/***********  *************/
+/*********** starting about *************/
+.about
+{
+    
+}
+.about .container
+{
+    padding: 30px 0px 150px 0px;
+}
+.about .container h3
+{
+    color: #5e5e5e;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 70px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px 17px 0px;
+}
+.about .container h3 span
+{
+    position: absolute;
+    background-color: #178512;
+    transition: 1s;
+}
+.about .container h3 .one
+{
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 45%;
+}
+.about .container h3 .two
+{
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20%;
+}
+.about .container h3 .three
+{
+    right: 0;
+    top: 0;
+    width: 3px;
+    height: 45%;
+    
+}
+.about .container h3 .four
+{
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 20%;
+}
+.about .container > .row > div
+{
+    
+}
+.about .container > .row > div:nth-child(2)
+{
+    
+}
+.about .container > .row > div:nth-child(2) > div
+{
+    
+}
+.about .container > .row > div:nth-child(2) span
+{
+    position: absolute;
+    background-color: #178512;
+    transition: 1s;
+}
+.about .container > .row > div:nth-child(2) .one
+{
+    left: 50px;
+    bottom: -36px;
+    width: 10px;
+    height: 45%;
+}
+.about .container > .row > div:nth-child(2) .two
+{
+    left: 50px;
+    bottom: -37px;
+    height: 10px;
+    width: 20%;
+}
+.about .container > .row > div:nth-child(2) .three
+{
+    right: 50px;
+    top: -36px;
+    width: 10px;
+    height: 45%;
+}
+.about .container > .row > div:nth-child(2) .four
+{
+    right: 50px;
+    top: -37px;
+    height: 10px;
+    width: 20%;
+}
+.about .container > .row > div h4
+{
+    font-size: 26px;
+    color: #178512;
+}
+.about .container > .row > div p
+{
+    color: #666666;
+}
+.about .container > .row > div img
+{
+    
+}
+@media (max-width: 576px)
+{
+    .about .container > .row > div
+    {
+        margin-bottom: 50px;
+    }
+    .about .container > .row > div img
+    {
+        width: 65%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .about .container > .row > div
+    {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .about .container > .row > div p
+    {
+        font-size: 12px;
+    }
+    .about .container > .row > div img
+    {
+        width: 70%
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .about .container > .row > div p
+    {
+        font-size: 13px;
+    }
+    .about .container > .row > div img
+    {
+        width: 70%
+    }
+}
+/*********** End about *************/
+/***********  *************/
+/***********  *************/
+/*********** starting branches *************/
+.branches
+{
+    text-align: center;
+}
+.branches .container
+{
+    padding: 70px 0px 150px 0px;
+}
+.branches .container > .row
+{
+    
+}
+.branches .container > .row > div
+{
+    background: rgba(255,255,255,1);
+/*    height: 100%;*/
+    width: 100%;
+    box-shadow: 0px 0px 5px #ddd;
+    padding: 0px;
+    transition: all .5s ease-in-out;
+}
+.branches .container > .row > div .overlay
+{
+    background: rgba(255,255,255,1);
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    top: 100%;
+    padding: 50px 30px;
+    transition: all .5s ease-in-out;
+}
+.branches .container > .row > div:hover
+{
+    background: url('../images/branches.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+}
+.branches .container > .row > div:hover .overlay
+{
+    background: rgba(23,133,18,.6);
+}
+.branches .container > .row > div i:before
+{
+    color: #178512;
+    margin-left: 0px;
+    font-size: 60px;
+    transition: all .5s ease-in-out;
+}
+.branches .container > .row > div h4
+{
+    color: #5e5e5e;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+.branches .container > .row > div p
+{
+    color: #5e5e5e;
+    transition: all .5s ease-in-out;
+}
+.branches .container > .row > div:hover h4,
+.branches .container > .row > div:hover p,
+.branches .container > .row > div:hover i:before
+{
+    color: #fff;
+}
+/*@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** End branches *************/
+/***********  *************/
+/***********  *************/
+/*********** starting mission-vision *************/
+.mission-vision
+{
+    margin-bottom: 120px;
+}
+.mission-vision .container
+{
+    
+}
+.mission-vision .container .row
+{
+    background-color: #178512;
+    margin: 0px;
+}
+.mission-vision .container img
+{
+    
+}
+.mission-vision .container h4
+{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.mission-vision .container p
+{
+    color: #fff;
+    font-size: 17px;
+}
+.mission-vision .container > div:nth-child(1)
+{
+    
+}
+.mission-vision .container > div:nth-child(1) > div
+{
+    
+}
+.mission-vision .container > div:nth-child(1) > div:nth-child(1)
+{
+    
+}
+.mission-vision .container > div:nth-child(1) > div:nth-child(2)
+{
+    padding: 0px;
+}
+.mission-vision .container > div:nth-child(1) h4
+{
+    
+}
+.mission-vision .container > div:nth-child(1) p
+{
+    
+}
+.mission-vision .container > div:nth-child(1) img
+{
+    
+}
+.mission-vision .container > div:nth-child(2) > div:nth-child(1)
+{
+    padding: 0px;
+}
+.mission-vision .container > div:nth-child(2) > div:nth-child(2)
+{
+    
+}
+.mission-vision .container > div:nth-child(2) h4
+{
+    
+}
+.mission-vision .container > div:nth-child(2) p
+{
+    
+}
+.mission-vision .container > div:nth-child(2) img
+{
+    
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .mission-vision .container p
+    {
+        font-size: 12px;
+    }
+    .mission-vision .container h4
+    {
+        margin-top: 0px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .mission-vision .container p
+    {
+        font-size: 14px;
+    }
+    .mission-vision .container h4
+    {
+        margin-top: 0px;
+    }
+}
+/*@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+
+*/
+/*********** End mission-vision *************/
+/***********  *************/
+/***********  *************/
+/*********** starting products *************/
+.port
+{
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.port .container img
+{
+    width: 100%;
+}
+.port .container h3
+{
+    color: #5e5e5e;
+    font-size: 22px;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 70px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px 17px 0px;
+}
+.port .container h3 span
+{
+    position: absolute;
+    background-color: #178512;
+    transition: 1s;
+}
+.port .container h3 .one
+{
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 45%;
+}
+.port .container h3 .two
+{
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20%;
+}
+.port .container h3 .three
+{
+    right: 0;
+    top: 0;
+    width: 3px;
+    height: 45%;
+    
+}
+.port .container h3 .four
+{
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 20%;
+}
+
+.port .container > hr
+{
+    width: 13%;
+    margin: auto;
+    margin-bottom: 80px
+}
+.port ul
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0
+}
+.port li
+{
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #a5a3a3;
+    list-style: none;
+}
+.port li.active
+{
+    color: #00c6d7
+}
+.port .row > div
+{
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+.port .row > div:hover
+{
+    opacity: .5
+}
+.hide-item
+{
+    width: 0;
+    height: 0;
+    transform: rotate(600deg) scale(0);
+    transition: all .8s ease-in-out
+}
+@media (max-width: 576px)
+{
+    .port ul
+    {
+        display: unset;
+        margin-bottom: 20px;
+        display: -webkit-box;
+    }
+    .port li
+    {
+        font-size: 16px;
+        margin: 12px 15px;
+        display: -webkit-inline-box;
+    }
+}
+/*
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** End products *************/
+/***********  *************/
+/***********  *************/
+/*********** starting contact *************/
+.contact
+{
+    
+}
+.contact .container
+{
+    padding: 30px 0px 120px 0px;
+}
+.contact .container > div
+{
+    
+}
+.contact .container h3
+{
+    color: #5e5e5e;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 70px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px 17px 0px;
+}
+.contact .container h3 span
+{
+    position: absolute;
+    background-color: #178512;
+    transition: 1s;
+}
+.contact .container h3 .one
+{
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 45%;
+}
+.contact .container h3 .two
+{
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20%;
+}
+.contact .container h3 .three
+{
+    right: 0;
+    top: 0;
+    width: 3px;
+    height: 45%;
+    
+}
+.contact .container h3 .four
+{
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 20%;
+}
+.contact form
+{
+    background-color: #e8e8e8;
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.contact form input,
+.contact form textarea
+{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+.contact form input[type=submit]
+{
+    cursor: pointer;
+    background-color: #178512;
+    color: #fff;
+    font-size: 18px;
+    width: auto;
+    padding: 5px 60px 10px 60px;
+    margin: auto;
+    display: -webkit-box;
+    transition: all .35s ease-in-out;
+}
+.contact form input[type=submit]:hover
+{
+    background-color: #155f12;   
+}
+@media (max-width: 576px)
+{
+    .contact form
+    {
+        width: 100%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .contact form
+    {
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .contact form
+    {
+        width: 90%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .contact form
+    {
+        width: 80%;
+    }
+}
+/*********** End contact *************/
+/***********  *************/
+/***********  *************/
+/*********** starting partner *************/
+.partner
+{
+    
+}
+.partner .container
+{
+    padding: 30px 0px 80px 0px;
+}
+.partner .container h3
+{
+    color: #5e5e5e;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 40px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px 17px 0px;
+}
+.partner .container h3 span
+{
+    position: absolute;
+    background-color: #178512;
+    transition: 1s;
+}
+.partner .container h3 .one
+{
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 45%;
+}
+.partner .container h3 .two
+{
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20%;
+}
+.partner .container h3 .three
+{
+    right: 0;
+    top: 0;
+    width: 3px;
+    height: 45%;
+    
+}
+.partner .container h3 .four
+{
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 20%;
+}
+.partner .container > .row > div
+{
+    
+}
+.partner .container > .row > div img
+{
+    box-shadow: 4px 4px 10px #ddd;    
+}
+@media (max-width: 576px)
+{
+    .partner .container > .row > div img
+    {
+        width: -webkit-fill-available;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .partner .container > .row > div img
+    {
+        width: -webkit-fill-available;
+        margin-bottom: 20px;
+    }
+}
+/*
+
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** End partner *************/
+/***********  *************/
+/***********  *************/
+/*********** starting footer *************/
+footer
+{
+    background: url('../images/back-footer.png');
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -0-background-size:contain;
+    background-size:contain;
+    background-repeat: round;
+    height: 370px;
+    width: 100% !important;
+}
+footer .overlay
+{
+    background: rgba(0,0,0,.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer .container
+{
+    padding: 30px 0px;
+}
+footer .container > div
+{
+    
+}
+footer .container > div:nth-child(1)
+{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+footer .container > div:nth-child(1) a
+{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 20px;
+    transition: all .35s ease-in-out;
+}
+footer .container > div:nth-child(1) a:hover
+{
+    color: #178512;    
+}
+footer .container > div:nth-child(2)
+{
+    margin-bottom: 100px;
+}
+footer .container > div:nth-child(2) img
+{
+    
+}
+footer .container > div:nth-child(3)
+{
+    
+}
+footer .container > div:nth-child(3) > div
+{
+    
+}
+footer .container > div:nth-child(3) > div p
+{
+    
+}
+footer .container > div:nth-child(3) > div p i
+{
+    margin-right: 10px;
+}
+footer .container > div:nth-child(3) > div a
+{
+    
+}
+footer .container > div:nth-child(3) > div a i
+{
+    color: #178512;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+footer .container > div:nth-child(3) > div a i:hover
+{
+    background-color: #178512;
+    color: #fff;
+}
+footer .copyright
+{
+    padding: 10px 0px 5px 0px;
+}
+footer .copyright p
+{
+    color: #5e5e5e;
+}
+footer .copyright span
+{
+    color: #178512;
+}
+@media (max-width: 576px)
+{
+    footer .container > div:nth-child(1) a
+    {
+        margin: 0px 10px;
+        font-size: 16px;
+    }
+    footer .container > div:nth-child(2)
+    {
+        margin-bottom: 50px;
+    }
+    footer .container > div:nth-child(3) > div
+    {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    footer .container > div:nth-child(3) > div p
+    {
+        font-size: 12px;
+    }
+    footer .container > div:nth-child(3) > div a i
+    {
+        margin: 0px 1px;
+    }
+}
+/*
+
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** End footer *************/
+/***********  *************/
+/***********  *************/
+/*@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** starting button-top *************/
+#button-top
+{
+    background-color: #d7356d;
+    background-color: #178512;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    line-height: 40px;
+    color: #fff;
+    opacity: 0.8;
+}
+#button-top:hover i
+{
+    opacity: 0.5;
+}
+/***********  End button-top*************/
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 340px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+@media (min-width: 1370px)
+{
+    .container
+    {
+        width: 1350px;
+    }
+}
+/******* End @media *********/

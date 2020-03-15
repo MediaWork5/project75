@@ -1,0 +1,72 @@
+@font-face {
+    font-family: DroidArabicKufiRegular;
+    src: url(../fonts/DroidArabicKufiRegular.ttf);
+}
+body
+{
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+}
+header nav .container > .row > div:nth-child(2) > a
+{
+    font-size: 15px;
+}
+header nav .container > .row > div:nth-child(3) a:last-child
+{
+    margin-right: 30px;
+    margin-left: 0px;
+}
+header .intro-slider .carousel-inner h1
+{
+    width: 330px;
+}
+header .newsletter h3
+{
+    font-size: 34px;
+}
+header .newsletter input[type=submit]
+{
+    padding-bottom: 17px;
+    margin-right: -10px;
+}
+header .newsletter i
+{
+    left: 80px;
+}
+@media (max-width: 576px)
+{
+    header .intro-slider .carousel-inner h1
+    {
+        width: 280px;
+    }
+    header .newsletter h3
+    {
+        font-size: 20px;
+    }
+    header .newsletter i
+    {
+        left: 30px;
+    }
+}
+.about .container > .row > div p
+{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.mission-vision
+{
+    direction: ltr;
+}
+.mission-vision .container p
+{
+    text-align: justify;
+    direction: rtl;
+}
+footer .container > div:nth-child(3) > div p i
+{
+    margin-left: 10px;
+    margin-right: 0px;
+}
